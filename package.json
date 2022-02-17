@@ -12,6 +12,7 @@
     "@types/react": "^17.0.39",
     "@types/react-dom": "^17.0.11",
     "@types/styled-components": "^5.1.22",
+    "concurrently": "^7.0.0",
     "craco": "^0.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
@@ -26,7 +27,8 @@
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
-    "eject": "craco eject"
+    "eject": "craco eject",
+    "dev": "concurrently \"craco start\" \"npx json-server MockServer/db.json --port 4000\" "
   },
   "eslintConfig": {
     "extends": [
