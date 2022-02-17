@@ -1,17 +1,22 @@
-import React from 'react';
-import Main from 'Components/Main/index.Main';
+import React from "react";
+import Main from "Components/Main/index.Main";
 import Nav from "Components/Nav/index.Nav"
-import {GlobalStyle} from 'Style/style';
+import styled from "styled-components";
+import { GlobalStyle } from "Style/style";
 
-function App() {
+const App = () => {
   return (
-    <div >
-      <GlobalStyle/>
+    <Container>
+      <GlobalStyle />
       <Nav />
-      energybalance
-      <Main/>
-    </div>
+      <Main />
+    </Container>
   );
 }
+
+const Container = styled.div`
+  max-width: 672px;
+  margin: auto;
+`;
 
 export default App;
