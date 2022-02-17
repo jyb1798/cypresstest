@@ -6,20 +6,22 @@ import { faBars, faCartArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 
 const Nav = ():JSX.Element => {
-    const handleOnClick = () =>{
-
-    }
+    const handleOnClick = () =>{}
     return(
+
+      
         <S.NavContainer>
             <S.IconList>
                 <S.IconContainer onClick={handleOnClick}>
-                 <FontAwesomeIcon icon={faBars} color={"gray"} />
+                    <FontAwesomeIcon icon={faBars} color={"gray"} fontSize={"30px"} />
                 </S.IconContainer>
+
                 <S.LogoContainer>
                     <img src="https://media.vlpt.us/images/yeonbee/post/649c4072-c9f4-468e-82d4-ad5c343c61e4/5d822a6b9583c3586bdd3249cc09f505.png" alt="로고" />
                 </S.LogoContainer>
+
                 <S.IconContainer onClick={handleOnClick}>
-                     <FontAwesomeIcon icon={faCartArrowDown} color={"gray"} />
+                     <FontAwesomeIcon icon={faCartArrowDown} color={"gray"} fontSize={"30px"}/>
                 </S.IconContainer>
             </S.IconList>
     </S.NavContainer>
