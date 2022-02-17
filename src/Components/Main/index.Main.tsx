@@ -2,7 +2,7 @@ import React from 'react';
 import * as S from 'Components/Main/style.Main';
 
 
-const Main:React.FC = () => {
+const Nav:React.FC = () => {
     return(
         <>
         <S.MainDiv>Main</S.MainDiv>
@@ -10,4 +10,4 @@ const Main:React.FC = () => {
     )
 }
 
-export default Main
+export default Nav
