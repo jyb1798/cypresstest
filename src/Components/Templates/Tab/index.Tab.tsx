@@ -1,6 +1,5 @@
-import React from 'react'
 import Results from 'public/data/mockData.json';
-// import * as S from './style.Tab'
+import * as S from 'Components/Templates/Tab/style.Tab'
 
 
 const Tab = () => {
