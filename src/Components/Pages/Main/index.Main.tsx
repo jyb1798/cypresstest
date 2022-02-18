@@ -1,5 +1,5 @@
 import React from 'react';
-import * as S from 'Components/Templates/Main/style.Main';
+import * as S from 'Components/Pages/Main/style.Main';
 
 
 const Nav:React.FC = () => {
