@@ -5,7 +5,12 @@
       "Const/*": ["src/Const/*"],
       "Components/*": ["src/Components/*"],
       "Utils/*": ["src/Utils/*"],
-      "Style/*": ["src/Style/*"]
+      "Style/*": ["src/Style/*"],
+      "Atoms/*": ["src/UI/Atoms/*"],
+      "Molecules/*": ["src/UI/Molecules/*"],
+      "Organisms/*": ["src/UI/Organisms/*"],
+      "Templates/*":["src/Components/Templates/*"],
+      "Pages/*": ["src/Components/Pages/*"]
     }
   }
 }
