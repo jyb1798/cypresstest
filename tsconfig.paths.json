@@ -6,6 +6,7 @@
       "Components/*": ["src/Components/*"],
       "Utils/*": ["src/Utils/*"],
       "Style/*": ["src/Style/*"],
+      "Types/*": ["src/Types/*"],
       "Atoms/*": ["src/UI/Atoms/*"],
       "Molecules/*": ["src/UI/Molecules/*"],
       "Organisms/*": ["src/UI/Organisms/*"],

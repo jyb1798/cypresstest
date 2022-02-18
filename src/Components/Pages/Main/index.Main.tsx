@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import Nav from "Components/Templates/Nav/index.Nav";
-import SearchBar from "Components/Templates/SearchBar/index.SearchBar";
+import Nav from "Templates/Nav/index.Nav";
+import SearchBar from "Templates/SearchBar/index.SearchBar";
 import styled from "styled-components";
 import { GlobalStyle } from "Style/style";
-import { JsonDataType } from "src/Types";
+import { JsonDataType } from "Types/index";
 
 const Main = () => {
   const [JsonData, setJsonData] = useState<JsonDataType[]>([]);
