@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Main from "Components/Templates/Main/index.Main";
+import Main from "Components/Pages/Main/index.Main";
 import Nav from "Components/Templates/Nav/index.Nav";
 import SearchBar from "Components/Templates/SearchBar/index.SearchBar";
 import styled from "styled-components";
