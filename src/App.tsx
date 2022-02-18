@@ -7,23 +7,31 @@ import { GlobalStyle } from "Style/style";
 import { JsonDataType } from "src/Types";
 const App = () => {
   const [JsonData, setJsonData] = useState<JsonDataType[]>([]);
-  useEffect(()=>{
-    (async()=>{
-     await fetch('http://localhost:4000/results').then(res => res.json()).then(res => setJsonData(res))
-    })()},[]);
+  useEffect(() => {
+    (async () => {
+      await fetch("http://localhost:4000/results")
+        .then((res) => res.json())
+        .then((res) => setJsonData(res));
+    })();
+  }, []);
   return (
     <Container>
       <GlobalStyle />
       <Nav />
-      <SearchBar JsonData={JsonData}/>
+      <SearchBar JsonData={JsonData} />
       <Main />
     </Container>
   );
-}
+};
 
 const Container = styled.div`
-  max-width: 672px;
-  margin: auto;
+
+  margin: 0 385px;
+
+  @media all and (max-width: 672px) {
+    max-width: 672px;
+    margin: auto;
+  }
 `;
 
 export default App;
