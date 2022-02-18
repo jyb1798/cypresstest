@@ -26,10 +26,11 @@ const App = () => {
 
 const Container = styled.div`
 
-  margin: 0 385px;
-
-  @media all and (max-width: 672px) {
-    max-width: 672px;
+  width: 60vw;
+  margin:auto;
+  
+  @media all and (max-width: 768px) {
+    width: 100vw;
     margin: auto;
   }
 `;
